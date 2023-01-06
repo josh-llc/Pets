@@ -1,0 +1,19 @@
+generic:
+  console-not-player: "&cOnly players can use this command."
+  no-permission: "&cNo permission."
+  reload: "&b&lPets &7» &fSuccessfully reloaded all configuration files."
+help:
+  - "&b&lPets"
+  - ""
+  - "&b/pets &7- &fdisplay this menu."
+  - "&b/pets reload &7- &freload the plugin."
+  - ""
+  - "&b/pet &7- &fmanage your pet."
+  - "&b/adopt &7- &fadopt a pet."
+pets:
+  adopted: "&b&lPets &7» &fYou have adopted a new &b%pet_name% &fPet. &7&o(Manage them with &b&o/pet&7&o)"
+  no-pet: "&b&lPets &7» &fYou do not currently have a pet. &7&o(Adopt one with &b&o/adopt&7&o)"
+  rename-prefix: "&b&lChange Name &7» "
+  rename-success: "&b&lPets &7» &fSuccessfully changed &b&l%old_name%'s &fname to &b&l%new_name%&f."
+  rename-confirmation: "&fPlease enter the new name for &b&l%pet_name% &7&o(or type '&bcancel' &7&oto cancel)"
+  rename-quit-keyword: "cancel"

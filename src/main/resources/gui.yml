@@ -1,0 +1,148 @@
+adoption:
+  title: "&bAdoption &7» &7Select a pet!"
+  rows: 3
+  fill:
+    enabled: true
+    material: "BLACK_STAINED_GLASS_PANE"
+    slots:
+      - "0"
+      - "1"
+      - "2"
+      - "3"
+      - "4"
+      - "5"
+      - "6"
+      - "7"
+      - "8"
+      - "9"
+      - "13"
+      - "17"
+      - "18"
+      - "19"
+      - "20"
+      - "21"
+      - "22"
+      - "23"
+      - "24"
+      - "25"
+      - "26"
+  pets:
+    chick:
+      slot: 10
+      display:
+        name: "&e&lChick"
+        lore:
+          - ""
+          - "&fHP: &c%pet_hp% ❤"
+          - "&fFood: &6%pet_food% ஐ"
+          - "&fClick to adopt a &e&lChick &fpet."
+    axolotl:
+      slot: 11
+      display:
+        name: "&d&lAxolotl"
+        lore:
+          - ""
+          - "&fHP: &c%pet_hp% ❤"
+          - "&fFood: &6%pet_food% ஐ"
+          - "&fClick to adopt an &d&lAxolotl &fpet."
+    racoon:
+      slot: 12
+      display:
+        name: "&7&lRacoon"
+        lore:
+          - ""
+          - "&fHP: &c%pet_hp% ❤"
+          - "&fFood: &6%pet_food% ஐ"
+          - "&fClick to adopt an &7&lRacoon &fpet."
+    otter:
+      slot: 14
+      display:
+        name: "&7&lOtter"
+        lore:
+          - ""
+          - "&fHP: &c%pet_hp% ❤"
+          - "&fFood: &6%pet_food% ஐ"
+          - "&fClick to adopt an &7&lOtter &fpet."
+    penguin:
+      slot: 15
+      display:
+        name: "&8&lPenguin"
+        lore:
+          - ""
+          - "&fHP: &c%pet_hp% ❤"
+          - "&fFood: &6%pet_food% ஐ"
+          - "&fClick to adopt a &8&lPenguin &fpet."
+    shark:
+      slot: 16
+      display:
+        name: "&9&lShark"
+        lore:
+          - ""
+          - "&fHP: &c%pet_hp% ❤"
+          - "&fFood: &6%pet_food% ஐ"
+          - "&fClick to adopt a &9&lShark &fpet."
+pet:
+  title: "&bPet &7» &7Manage your pet!"
+  rows: 4
+  fill:
+    enabled: true
+    material: "BLACK_STAINED_GLASS_PANE"
+    slots:
+      - "0"
+      - "1"
+      - "2"
+      - "3"
+      - "4"
+      - "5"
+      - "6"
+      - "7"
+      - "8"
+      - "9"
+      - "10"
+      - "11"
+      - "12"
+      - "14"
+      - "15"
+      - "16"
+      - "17"
+      - "18"
+      - "19"
+      - "21"
+      - "22"
+      - "23"
+      - "25"
+      - "26"
+      - "27"
+      - "28"
+      - "29"
+      - "30"
+      - "31"
+      - "32"
+      - "33"
+      - "34"
+      - "35"
+  pet:
+    slot: 13
+    display:
+      name: "&b&l%pet_name%"
+      lore:
+        - ""
+        - "&fHP: &c%pet_hp% ❤"
+        - "&fFood: &6%pet_food% ஐ"
+        - ""
+  change-name:
+    slot: 20
+    display:
+      material: "WRITABLE_BOOK"
+      name: "&b&lChange Name"
+      lore:
+        - ""
+        - "&fClick to change &b&l%pet_name%'s &fname."
+  feed:
+    slot: 24
+    display:
+      name: "&b&lFeed"
+      lore:
+        - ""
+        - "&f%food_name%: &b&l+1 ஐ"
+        - "&fClick to feed &b&l%pet_name%&f."
